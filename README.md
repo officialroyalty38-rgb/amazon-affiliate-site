@@ -1,1 +1,1 @@
-# amazon-affiliate-site
+# royalty-affiliate-site
