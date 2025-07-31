@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Brand Page</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #111;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #000;
+      color: gold;
+      padding: 20px;
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 20px;
+      text-align: center;
+    }
+
+    a.button {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 25px;
+      background-color: gold;
+      color: #000;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    a.button:hover {
+      background-color: #e6c200;
+    }
+
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      padding: 10px;
+      background-color: #000;
+      color: #777;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    Welcome to My Marketing Hub
+  </header>
+
+  <div class="container">
+    <p>Hi there! Explore my links below 👇</p>
+
+    <!-- Pinterest Link -->
+    <a href="https://pin.it/5AsAMTMiV" class="button" target="_blank">My Pinterest Profile</a>
+
+    <!-- Fiverr Link -->
+    <a href="https://www.fiverr.com/s/VY22Gzz" class="button" target="_blank">Hire Me on Fiverr</a>
+
+    <!-- Amazon Affiliate Button -->
+    <a href="https://www.amazon.com/" class="button" target="_blank">Shop on Amazon</a>
+
+    <!-- Upload Section (Visible to Only You) -->
+    <p style="margin-top: 40px;"><strong>🔒 Private Upload Section (Only for You)</strong></p>
+    <p><em>(You can manage this via your GitHub backend or CMS)</em></p>
+
+    <!-- Back to Home Page Button -->
+    <a href="/" class="button">Back to Home Page</a>
+  </div>
+
+  <footer>
+    &copy; 2025 My Brand. All rights reserved.
+  </footer>
+
+</body>
+</html>
